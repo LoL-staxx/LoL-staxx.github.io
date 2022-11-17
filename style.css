@@ -1,0 +1,23 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width:768px){
+    #sing-input{
+        width: 800px;
+    }
+}
+
+@media(max-width:767px){
+    #main-img{
+        display: none;
+    }
+}
+
+#fundamentals_img{
+    display: flex;
+    align-items: center;
+}
+
