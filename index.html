@@ -3,307 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BootCamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Wayne Ordonez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="icon" href="img/logo.png">
 </head>
 <body>
-    
-    <!-- NAVATION -->
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 fixed-top">
-        <div class="container">
-            <a href="#" class="navbar-brand">BootCamp</a>
+    <div class="container">
+        <div class="navegation">
+            <ul>
+                <li><a href="#banner" class="hidden">Home</a></li>
+                <li><a href="#about" class="hidden">About</a></li>
+                <li><a href="#service" class="hidden">Services</a></li>
+                <li><a href="#projects" class="hidden">Project</a></li>
+                <li><a href="#contact" class="hidden">contact</a></li>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> 
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            </ul>
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a href="#learn" class="nav-link">What you'll learn</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#questions" class="nav-link">Questions</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#instructors" class="nav-link">Instructors</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
-
-    <!-- SHOW CASE -->
-
-    <section class="bg-dark text light p-5 text-center text-sm-start">
-        <div class="container">
-            <div class="d-sm-flex aling-items-center justify-content-between">
-                <div style="padding-right: 20px;">
-                    <h1 class="text-light">Become a web devoloper</h1>
-
-                    <p class="text-light my-4 lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis mollitia asperiores ex veritatis aspernatur dolores esse nemo ea voluptatibus, velit dolorem eveniet, explicabo corporis! Aspernatur, libero. Reiciendis atque velit iste.</p>
-                    
-                    <button class="btn btn-danger">Go Home</button>
-                
+        <div class="main">
+            <div class="topBar">
+                <a href="#banner" class="logo">Wayne Orodez</a>
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
-                
-                <img class="img-fluid" id="main-img" style="width: 350px; border-radius: 5px;"  src="https://cdnb.20m.es/sites/112/2019/04/cara6.jpg" alt="lo que sea">
             </div>
 
-        </div>
-    </section>
+            <section class="banner" id="banner">
 
-    <!-- Newsletter -->
-
-    <section class="bg-primary text-light p-5">
-        <div class="container">
-            <div class="d-md-flex justify-content-between aling-items-center">
-                <h3 class="mb-3 mb-md-0">Sing Up</h3>
-
-                <div class="input-group" id="sing-input">
-                    <input type="text" class="form-control w-25" placeholder="Sing up" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-dark bg-lg w-25" type="button">Enter</button>
-                  </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Boxes -->
-
-    <section class="p-5">
-        <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
-                            <h3 class="card-title">Virtual</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quis?</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="img/perfil.jpg" alt="">
                     </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="card bg-secondary text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3"><i class="bi bi-person-square"></i></div>
-                            <h3 class="card-title">Hybrid</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quis?</p>
-                            <a href="#" class="btn btn-dark">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3"><i class="bi bi-people"></i></div>
-                            <h3 class="card-title">In person</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quis?</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- fundamentals -->
-
-    <section id="learn" class="p-5">
-        <div class="container">
-            <div class="row aling-items-center justify-content-between">
-                <div class="col-md" id="fundamentals_img">
-                    <img class="img-fluid" src="https://www.rdstation.com/blog/wp-content/uploads/sites/2/2017/09/thestocks.jpg" alt="XD">
-                </div>
-
-                <div class="col-md p-5">
-                    <h2>Learn More</h2>
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, vitae.</p>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequatur ut eveniet facere, soluta optio quas quis exercitationem ipsum earum odit dicta, fugit expedita. Quidem similique fugiat dolore blanditiis ipsa.</p>
-
-                    <a href="#" class="btn btn-dark mt-3"><i class="bi bi-chevron-right"></i> See more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="learn" class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row aling-items-center justify-content-between">
-
-                <div class="col-md p-5">
-                    <h2>I dont know what more to put her so, hello world</h2>
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, vitae.</p>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequatur ut eveniet facere, soluta optio quas quis exercitationem ipsum earum odit dicta, fugit expedita. Quidem similique fugiat dolore blanditiis ipsa.</p>
-
-                    <a href="#" class="btn btn-dark mt-3"><i class="bi bi-chevron-right"></i> See more</a>
-                </div>
-
-                <div class="col-md" id="fundamentals_img">
-                    <img class="img-fluid" src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/solar-orbiter-toma-imagenes-del-sol-como-nunca-antes/9437612-1-esl-MX/Solar-Orbiter-toma-imagenes-del-Sol-como-nunca-antes.jpg" alt="XD">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- QUESTION SECTION -->
-
-    <section class="p-5" id="questions">
-        <div class="container">
-            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
-
-            <!-- ACCORDION -->
-
-
-            <div class="accordion accordion-flush" id="questions">
-                <!-- item 1 -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Where exactly are you located?
-                    </button>
-                  </h2>
-                  <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati reprehenderit error enim alias molestias, expedita porro beatae mollitia. Quae illum placeat porro magnam obcaecati explicabo et dolorum! Quos aliquam magnam assumenda necessitatibus saepe molestias enim soluta deserunt? Rerum expedita eum sunt dolorum cum, voluptatibus soluta esse tempora architecto voluptates mollitia.</div>
-                  </div>
-                </div>
-
-                <!-- item 2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseOne">
-                        How much does it cost to attend?
-                      </button>
-                    </h2>
-                    <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati reprehenderit error enim alias molestias, expedita porro beatae mollitia. Quae illum placeat porro magnam obcaecati explicabo et dolorum! Quos aliquam magnam assumenda necessitatibus saepe molestias enim soluta deserunt? Rerum expedita eum sunt dolorum cum, voluptatibus soluta esse tempora architecto voluptates mollitia.</div>
-                    </div>
-                  </div>
-
-                <!-- item 3 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" aria-expanded="false" aria-controls="flush-collapseOne">
-                        What do i need to know?
-                      </button>
-                    </h2>
-                    <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati reprehenderit error enim alias molestias, expedita porro beatae mollitia. Quae illum placeat porro magnam obcaecati explicabo et dolorum! Quos aliquam magnam assumenda necessitatibus saepe molestias enim soluta deserunt? Rerum expedita eum sunt dolorum cum, voluptatibus soluta esse tempora architecto voluptates mollitia.</div>
-                    </div>
-                  </div>
-              </div>
-        </div>
-
-    </section>
-
-    <section id="instructors" class="p-5 bg-primary">
-        <div class="container">
-            <h2 class="text-center text-white">Our Instructors</h2>
-            <p class="lead text-center text-white mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, praesentium!</p>
-
-
-            <div class="row g-4">
-
-                <!-- card 1 -->
-                
-                <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <img src = "https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1920331649.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          
-                          <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                        <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
-                        </div>
-                      </div>
-            </div>
-
-            <!-- card 2 -->
-
-            <div class="col-md">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://media.istockphoto.com/id/1365223878/es/foto/hombre-atractivo-sinti%C3%A9ndose-alegre.jpg?b=1&s=170667a&w=0&k=20&c=bvl1G8jZOQ9M8maHjQm34YYGmINoZ-S8tVMFv6QKL0Y=" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      
-                      <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                    <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                    <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
-                    </div>
-                  </div>
-        </div>
-
-        <!-- card 3 -->
-
-        <div class="col-md">
-            <div class="card" style="width: 18rem;">
-                <img src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg?w=2000" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
-                </div>
-              </div>
-    </div>
-
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-
-    <section class="p-5">
-        <div class="container d-md-flex justify-content-center">
-            
-                <div class="justify-content-center aling-items-center">
-                    <h3 class= "text-center mb-5"> Contact </h3>
-                    <ul class="list-group list-group-flush lead">
-                        <li class="list-group-item">
-                            <span class="fw-bold">Main Phone Number:</span> +505 5555 5555
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">House Phone Number:</span> 555-451-855
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Main Email:</span> email@gmail.com
-                        </li>
+                    <h3 class="wayne">Wayne Ordonez</h3>
+                    <p>Hello world, im i front-end web devoloment</p>
+                    <ul class="socialMedia">
+                        <li><a href="https://www.facebook.com/sellvin.ordonez.1/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a></li>
+                        <li><a href="https://www.linkedin.com/in/wayne-ordoñez-209a17173/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                        <li><a href="https://www.instagram.com/______l_o_a_d_i_n_g___________/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
                     </ul>
                 </div>
+
+            </section>
+
+            <section class="about adjust" id="about">
+                <div class="title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="content">
+                    <div class="textBox">
+                        <p>Hello world, I am a web developer, who focuses on the front-end and ux-ui area, I would be delighted to be part of your future projects and take them to the next level, let's start our coding :D</p>
+                    </div>
+                    <div class="imgBox">
+                        <img src="img/about.png" alt="">
+                    </div>
+                   
+                </div>
+
+            </section>
+
+            <section class="service" id="service">
+                <div class="title">
+                    <h2>My Skills</h2>
+                </div>
+
+
+                <div class="content">
+                    <div class="serviceBox">
+                        <i class="fa fa-html5" aria-hidden="true"></i>
+                        <h2>HTML5</h2>
+                    </div>
+
+                    <div class="serviceBox">
+                        <i class="fa fa-css3" aria-hidden="true"></i>
+                        <h2>CSS3</h2>
+                    </div>
+
+                    <div class="serviceBox">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <h2>JAVASCRIPT</h2>
+                    </div>
+
+                    
+                </div>
+
+
+
+            </section>
+
+            <!-- projects -->
+
+            <section class="projects adjust" id="projects">
+                <div class="title">
+                    <h2>My projects</h2>
+                    <p>the projects I have done throughout my career as a web developer.</p>
+                </div>
+
+                <div class="content">
+
+                    <!-- item1 -->
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/businees.png" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Businnes Proyect</h3>
+                            <P>I sorry for the image sizing, if you wanna see the full proyect you can go clicking the bottom</P>
+                            <a href="Bussiness/index.html" class="btn btn-primary" id="btn_hover" target="_blank">Go to Project</a>
+
+                        </div>
+                    </div>
+
+                    <!-- item2 -->
+
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/resume.png" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>Creative Project</h3>
+                            <P>I sorry for the image sizing, if you wanna see the full proyect you can go clicking the bottom</P>
+                            <a href="creative web/index.html" class="btn btn-primary" id="btn_hover" target="_blank">Go to Project</a>
+                        </div>
+                    </div>
+
+                    <!-- item3 -->
+
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="img/BootCamp.png" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h3>BootCamp Project</h3>
+                            <P>I sorry for the image sizing, if you wanna see the full proyect you can go clicking the bottom</P>
+                            <a href="Boostrap/index.html" class="btn btn-primary" id="btn_hover" target="_blank">Go to Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- contact section -->
+
+            <section class="contact adjust" id="contact">
+                
+                <div class="title">
+                    <h2>Contact Me</h2>
+                </div>
+
+                <div class="contactForm">
+
+                    <form action="https://formspree.io/f/xnqrwaaj" method="POST">
+                    <div class="row">
+                        <label>
+                            <input type="text" name="name" id="" placeholder="First Name">
+                        </label> 
+
+                        <label>
+                            <input type="text" name="name" id="" placeholder="Second Name">
+                        </label>
+
+                    </div>
+                    <div class="row row_email">
+                        <label>
+                            <input type="email" name="email" placeholder="Email Adrees">
+                          </label>
+                    </div>
+
+                    <div class="row2">
+                        <label class="labelMessage">
+                            <textarea name="message" id="message" placeholder="write a massege <3"></textarea>
+                        </label>
+                    </div>
+
+                    <div class="row3">
+                        <input type="submit" value="send">
+                    </div>
+
+                </form>
+                </div>
+
+            </section>
+
+            <div class="copyrigth">
+                <p>Copyrigth  ©  2022 Wayne Ordonez. All Rigth Reserved.</p>
             </div>
-            
-    </section>
 
-    <footer class="p-5 bg-dark text-light text-center position-relative">
-        <div class="container">
-            <p class="lead">Copyright &copy; 2022 BoostrapTurotial</p>
-
-            <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                <i class="bi bi-arrow-up-circle h1"></i>
-            </a>
         </div>
+        
 
-    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </div>
+
+
+    <script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,138 @@
+@media (max-width:500px){
+    body{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 100%;
+    }
+
+
+    /* navegation */
+
+    .navegation{
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .navegation ul{
+        width: 300px;
+    }
+
+    .navegation ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegation ul li a{
+        display: flex;
+        justify-content: center;
+        font-size: 1.4em;
+    }
+
+    .navActive{
+        width: 100%;
+        max-height: 100vh;
+        display: flex;
+    }
+
+
+    /* body */
+    .main{
+        width: 100%;
+        left: 0;
+    }
+
+    .main .topBar{
+        width: 100%;
+        z-index: 100;
+        padding: 0 10px;
+    }
+
+    .main .topbar{
+        width: 100%;
+        left: 0;
+    }
+
+    .main .topBar .logo{
+        font-size: 1.3em;
+    }
+
+    /* banner */
+
+    .banner{
+        padding: 0;
+    }
+
+    .banner .content{
+        width: 100%;
+    }
+
+    .banner .imgBx{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* about */
+
+    .adjust{
+        padding: 0 10px;
+    }
+
+    .title{
+        margin-top: 20px;
+    }
+
+    .about .content{
+        flex-direction: column;
+    }
+
+    .about .content .textBox{
+        order: 2;
+    }
+
+    .about .content .imgBox{
+        order: 1;
+        margin: auto;
+    }
+
+    .about .content .textBox{
+        min-width: 100%;
+        margin-top: 40px;
+    }
+
+    .about .content .textBox p{
+        font-size: 1em;
+    }
+
+    .about .content .imgBox img{
+        max-width: 200px;
+    }
+
+    /* serverces */
+
+    .service{
+        padding: 0 15px;
+    }
+
+    .service .content{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service .content .serviceBox{
+        width: 300px;
+        padding: 15px 10px;
+    }
+
+    /* proyect */
+
+    .projects .content{
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+
+}
